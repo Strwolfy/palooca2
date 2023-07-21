@@ -9,6 +9,10 @@
     <fileSets>
         <fileSet>
             <directory>../${project.basedir}/lib</directory>
+            <excludes>
+                <exclude>PalOOCa.jar</exclude>
+                <exclude>PalOOCa_IDL_types.jar</exclude>
+            </excludes>
             <outputDirectory>external_libs</outputDirectory>
         </fileSet>
         <fileSet>
